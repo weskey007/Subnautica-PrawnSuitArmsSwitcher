@@ -74,15 +74,7 @@ namespace PrawnSuitArmSwitcher.ExosuitArms
 
             InventoryItem removedArm = null;
             if (currentArm != null)
-            {
-                /*IExosuitArm exosuitArm = _exosuitArms.GetIExosuitArm(slotID);
-                if (exosuitArm != null)
-                    exosuitArm.Reset();
-                else
-                    Logger.Log("Thought arm was ExosuitPropulsionArmModule but couldn't get actual arm slotID: " + slotID);*/
-
                 removedArm = _exosuitArms.RemoveArm(slotID);
-            }
                 
                 
 
