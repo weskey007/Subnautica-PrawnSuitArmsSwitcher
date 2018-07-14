@@ -1,0 +1,11 @@
+﻿{
+  "Id": "PrawnSuitArmSwitcher",
+  "DisplayName": "PrawnSuitArmSwitcher",
+  "Author": "weskey",
+  "Version": "0.1",
+  "Requires": [ "0Harmony.dll" ],
+  "Enable": true,
+  "AssemblyName": "PrawnSuitArmSwitcher.dll",
+  "EntryMethod": "PrawnSuitArmSwitcher.QPatch.Patch",
+  "Config": { }
+}
